@@ -18,9 +18,10 @@ class Program
 
     static void QuickSort(int[] v, int left, int right)
     {
-        if (left >= right) return;
+        if (left >= right) 
+            return;
 
-        int pivot = v[right]; // pivot in the right side
+        int pivot = v[right];
         int i = left;
 
         for (int j = left; j < right; j++)
